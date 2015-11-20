@@ -2796,6 +2796,7 @@ static void *def_codec_mbhc_cal(void)
 					       MBHC_BTN_DET_V_BTN_HIGH);
 	btn_low[0] = -200;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	btn_high[0] = 75;
 	btn_low[1] = 76;
 	btn_high[1] = 165;
@@ -2812,6 +2813,15 @@ static void *def_codec_mbhc_cal(void)
 	btn_low[3] = 361;
 	btn_high[3] = 722;
 >>>>>>> 8d537e9... angler: update headset button detection values
+=======
+	btn_high[0] = 97;
+	btn_low[1] = 98;
+	btn_high[1] = 222;
+	btn_low[2] = 223;
+	btn_high[2] = 343;
+	btn_low[3] = 344;
+	btn_high[3] = 722;
+>>>>>>> 4d682c2... angler: fix Angler 3-button headset button press detection
 	btn_low[4] = 149;
 	btn_high[4] = 189;
 	btn_low[5] = 190;
