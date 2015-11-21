@@ -2795,6 +2795,7 @@ static void *def_codec_mbhc_cal(void)
 	btn_high = wcd9xxx_mbhc_cal_btn_det_mp(btn_cfg,
 					       MBHC_BTN_DET_V_BTN_HIGH);
 	btn_low[0] = -200;
+<<<<<<< HEAD
 	btn_high[0] = 75;
 	btn_low[1] = 76;
 	btn_high[1] = 165;
@@ -2802,6 +2803,15 @@ static void *def_codec_mbhc_cal(void)
 	btn_high[2] = 290;
 	btn_low[3] = 291;
 	btn_high[3] = 650;
+=======
+	btn_high[0] = 87;
+	btn_low[1] = 88;
+	btn_high[1] = 209;
+	btn_low[2] = 210;
+	btn_high[2] = 360;
+	btn_low[3] = 361;
+	btn_high[3] = 722;
+>>>>>>> 8d537e9... angler: update headset button detection values
 	btn_low[4] = 149;
 	btn_high[4] = 189;
 	btn_low[5] = 190;
