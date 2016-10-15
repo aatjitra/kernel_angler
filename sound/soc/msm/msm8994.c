@@ -2797,6 +2797,9 @@ static void *def_codec_mbhc_cal(void)
 	btn_low[0] = -200;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 4d682c2... angler: fix Angler 3-button headset button press detection
 	btn_high[0] = 75;
 	btn_low[1] = 76;
 	btn_high[1] = 165;
@@ -2804,6 +2807,7 @@ static void *def_codec_mbhc_cal(void)
 	btn_high[2] = 290;
 	btn_low[3] = 291;
 	btn_high[3] = 650;
+<<<<<<< HEAD
 =======
 	btn_high[0] = 87;
 	btn_low[1] = 88;
@@ -2822,6 +2826,8 @@ static void *def_codec_mbhc_cal(void)
 	btn_low[3] = 344;
 	btn_high[3] = 722;
 >>>>>>> 4d682c2... angler: fix Angler 3-button headset button press detection
+=======
+>>>>>>> parent of 4d682c2... angler: fix Angler 3-button headset button press detection
 	btn_low[4] = 149;
 	btn_high[4] = 189;
 	btn_low[5] = 190;
