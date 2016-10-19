@@ -355,7 +355,7 @@ GEN_OPT_FLAGS := $(call cc-option,$(ARM_ARCH_OPT),-march=armv8-a+crypto) \
 ABYSS_FLAGS 	:= $(GEN_OPT_FLAGS) -O3 -pipe \
 		   -ffast-math -fsingle-precision-constant -fsched-spec-load \
 		   -fpredictive-commoning -fgcse-after-reload -fgcse-sm \
-		   -fno-pic -mno-android
+		   -fno-pic -mno-android -mcpu=cortex-a57 -mtune=cortex-a57
 
 # Use the wrapper for the compiler.  This wrapper scans for new
 # warnings and causes the build to stop upon encountering them.
